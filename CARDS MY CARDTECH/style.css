@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.logo img {
+  height: 130px;
+  border: solid 5px #ffff;
+  border-radius: 100px;
+}
+
+.logoTEXT {
+  margin-top: 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoTEXT hr {
+  width: 150px;
+  border: solid 0.7px;
+  color: #ffff;
+  border-radius: 100px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sloganTEXT {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffff;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta {
+  margin-top: 20px;
+  background-color: #505050;
+  border-radius: 5px;
+  height: 25px;
+  box-shadow: 0px 0px 4px rgb(0, 0, 1);
+}
+
+.insta a {
+  text-decoration: none;
+  padding: 2px 127px;
+  display: flex;
+}
+
+.insta button {
+  display: flex;
+  background-color: transparent;
+  border: transparent;
+  color: #ffff;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.tiktok {
+  margin-top: 20px;
+  background-color: #505050;
+  border-radius: 5px;
+  height: 25px;
+  box-shadow: 0px 0px 4px rgb(0, 0, 1);
+}
+
+.tiktok a {
+  text-decoration: none;
+  padding: 2px 141px;
+  display: flex;
+}
+
+.tiktok button {
+  display: flex;
+  background-color: transparent;
+  border: transparent;
+  color: #ffff;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tiktok button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.wpp {
+  margin-top: 20px;
+  background-color: #505050;
+  border-radius: 5px;
+  height: 25px;
+  box-shadow: 0px 0px 4px rgb(0, 0, 1);
+}
+
+.wpp a {
+  text-decoration: none;
+  padding: 2px 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wpp button {
+  display: flex;
+  background-color: transparent;
+  border: transparent;
+  color: #ffff;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wpp button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.marca {
+  margin-top: 150px;
+}
+
+.marca img {
+  height: 120px;
+}
